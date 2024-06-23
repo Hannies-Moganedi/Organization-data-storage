@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+}
+
+form{
+    background-color: beige;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+form h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+form p{
+    margin-bottom: 20px;
+}
+form input,
+form button{
+    margin-bottom: 10px;
+    height: 28px;
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    border: none;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+}
+form button:hover{
+    color: #000;
+    background-color: aquamarine;
+}
+form a{
+    color: blue;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
